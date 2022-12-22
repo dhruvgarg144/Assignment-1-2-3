@@ -1,0 +1,46 @@
+#Ques1
+
+x=int(input("Enter number in x:"))
+y=int(input("Enter number in y:"))
+z=int(input("Enter number in z:"))
+
+avg=(x+y+z)/3
+print('Average of given numbers :',avg)
+
+
+#Ques2
+
+x=float(input("Please enter your gross family income="))
+y=float(input("PLease enter number of dependents on you="))
+print("Standard deduction= 10000")
+print("additional tax deduction due to dependents=", 3000*y)
+print("Total taxable income", x-10000-(3000*y))
+Z= x-10000-(3000*y)
+print("Total payable tax=",Z/5)
+
+
+#Ques3
+
+x=int(input("Enter the number of seconds"))
+a=x//60
+b=x%60
+print(a,"minutes",b,"seconds")
+
+
+#Ques4
+
+a=25
+b=eval("25")
+c=int(25.0)
+sum=str(a+b+c)
+print(sum)
+
+#Ques5
+
+import math
+i = 0
+while i <= 345:
+    rads = (i * math.pi)/180
+    print("The value of sin", i, "degrees is", math.sin(rads))
+    print("The value of cos", i, "degrees is", math.cos(rads))
+    i += 15
